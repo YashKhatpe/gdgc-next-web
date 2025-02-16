@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import {motion} from 'framer-motion'
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 const events = [
   {
     title: "Gen AI",
@@ -59,7 +60,7 @@ function EventCard({ event }: { event: typeof events[0] }) {
 
     <Card className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
       <div className="aspect-video relative">
-        <img 
+        <Image 
           src={event.image} 
           alt={event.title} 
           className="object-cover w-full h-full"

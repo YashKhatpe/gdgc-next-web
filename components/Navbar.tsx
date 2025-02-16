@@ -1,7 +1,7 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
-import Seperator from "./seperator";
 
 export default function Navbar() {
   return (
@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between px-4 py-4 max-w-7xl mx-auto">
           <Link href="/">
         <div className="flex items-center gap-2">
-          <img src="/gdg-logo.webp" alt="GDG Logo" className="h-8" />
+          <Image src="/gdg-logo.webp" alt="GDG Logo" className="h-8" />
           <span className="font-medium hidden  sm:inline">
             Google Developers Group on Campus
           </span>
@@ -28,7 +28,6 @@ export default function Navbar() {
           </Link>
         </div>
       </nav>
-      {/* <Seperator/> */}
     </div>
   );
 }

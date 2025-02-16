@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Code2, Cloud, Shield, Terminal, Users, ChevronDown } from "lucide-react";
+import { Code2, Cloud, Shield, Terminal, Users } from "lucide-react";
 import {
   Accordion,
   AccordionContent,
@@ -12,6 +12,7 @@ import {
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -47,7 +48,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-4">What we Do?</h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Welcome to GDGC DBIT, where we'll help you immerse yourself in excellence, overcome, and compete through our tech community.
+            Welcome to GDGC DBIT, where we&apos;ll help you immerse yourself in excellence, overcome, and compete through our tech community.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -90,7 +91,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-center mb-4">What we Do?</h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Welcome to GDGC DBIT, where we'll help you immerse yourself in excellence, overcome, and compete through our tech community.
+            Welcome to GDGC DBIT, where we&apos;ll help you immerse yourself in excellence, overcome, and compete through our tech community.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -253,7 +254,7 @@ function ProjectCard({ title, description, src }: { title: string; description: 
   return (
     <Card className="p-6 transition-transform duration-300 ease-in-out hover:scale-105">
       <div className="w-full h-52 bg-gray-200 rounded-lg mb-4">
-      <img 
+      <Image 
           src={src}
           alt="alt" 
           className="object-cover w-full h-full"
@@ -270,7 +271,7 @@ function TestimonialCard({ content, name, role, avatar }: { content: string; nam
     <Card className="p-6 transition-transform duration-300 ease-in-out hover:scale-105">
       <p className="text-gray-600 mb-6">{content}</p>
       <div className="flex items-center gap-4">
-        <img src={avatar} alt={name} className="w-12 h-12 rounded-full" />
+        <Image src={avatar} alt={name} className="w-12 h-12 rounded-full" />
         <div>
           <h4 className="font-semibold">{name}</h4>
           <p className="text-gray-600 text-sm">{role}</p>

@@ -1,7 +1,6 @@
 "use client"
 
-import Link from "next/link"
-import Seperator from "./seperator"
+import Image from "next/image"
 
 export default function Footer() {
     return (
@@ -12,7 +11,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <img src="/gdg-logo.webp" alt="GDGC DBIT" className="h-8" />
+                <Image src="/gdg-logo.webp" alt="GDGC DBIT" className="h-8" />
                 <span className="font-bold">GDGC DBIT</span>
               </div>
               <div className="flex gap-4">

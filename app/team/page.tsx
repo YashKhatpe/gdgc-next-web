@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import { motion} from 'framer-motion'
+import Image from "next/image";
 
 const teamMembers = [
   {
@@ -165,7 +166,7 @@ function TeamMemberCard({ member }: { member: typeof teamMembers[0] }) {
     >
       <Card className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
         <div className="aspect-video relative">
-          <img 
+          <Image 
             src={member.image} 
             alt={member.name} 
             className="object-cover w-full h-full"
