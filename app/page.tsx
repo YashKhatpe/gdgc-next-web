@@ -138,37 +138,37 @@ export default function Home() {
               content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultricies ante arcu hendrerit."
               name="John"
               role="Developer"
-              avatar="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
             <TestimonialCard
               content="Curabitur at metus ut sapien tempor bibendum quis at neque. Ut tellus id tortor a tristique. Phasim vitae sed felis, libero faucibus tempor."
               name="Bob"
               role="Tech Lead"
-              avatar="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
             <TestimonialCard
               content="Vivamus imperdiet porta arci. Nullus commodo ullamcorper quam. Quisque consectetur ultrices elit."
               name="Michael"
               role="Principal"
-              avatar="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
             <TestimonialCard
               content="Mauris nec elear porttitor nibh at pharetra scet explicable eu. Praesent volutpat at turpis ac congue. Vestibulum nec nisi blandit."
               name="Max"
               role="Developer"
-              avatar="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
             <TestimonialCard
               content="Suspendisse a velit elit. Curabitur augue felis. Vulputate sed elit id, condimentum vestibulum sem. Suspendisse mattis massa eu justo semper!"
               name="Emily"
               role="Tech Lead"
-              avatar="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
             <TestimonialCard
               content="Nullam nec lacus vitae risus vulputate dictum non sed magna. Aliquam in vestibulum quam. Morbi feugiat malesuada leo, vel blandit tortor varius nisi."
               name="Sarah"
               role="Developer"
-              avatar="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              avatar="/team/jayesh.jpg"
             />
           </div>
         </div>

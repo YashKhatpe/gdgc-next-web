@@ -114,7 +114,7 @@ const pastteamMembers = [
     name: "Shrikrishna Umbare",
     role: "Lead",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultricies ante arcu hendrerit.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+    image: "/team/jayesh.jpg",
     social: {
       github: "#",
       twitter: "#",
@@ -125,7 +125,7 @@ const pastteamMembers = [
     name: "John Doe",
     role: "Lead",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultricies ante arcu hendrerit.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+    image: "/team/jayesh.jpg",
     social: {
       github: "#",
       twitter: "#",
@@ -136,7 +136,7 @@ const pastteamMembers = [
     name: "John Doe",
     role: "Lead",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultricies ante arcu hendrerit.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+    image: "/team/jayesh.jpg",
     social: {
       github: "#",
       twitter: "#",
@@ -147,7 +147,7 @@ const pastteamMembers = [
     name: "John Doe",
     role: "Lead",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ultricies ante arcu hendrerit.",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=80",
+    image: "/team/jayesh.jpg",
     social: {
       github: "#",
       twitter: "#",
